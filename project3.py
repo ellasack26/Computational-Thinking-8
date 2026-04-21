@@ -24,7 +24,7 @@ t4 = create_sprite("balloon",x4,y4)
 # # Section 3 - Racing
 # # TODO - set how much each variable changes by and increase the number of repeats to at least 30
 # # TODO - explain here which sprites are faster or slower
-# X4 will always lose and X1 an d X2 will take turns winning randomly.
+# X4 will always lose and x3 will lose second and X1 an d X2 will take turns winning randomly.
 for i in range(60):
     x1 +=random.randint(5,10)
     x2 +=random.randint(3,8)
